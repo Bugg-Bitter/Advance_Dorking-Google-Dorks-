@@ -1,3 +1,0 @@
-Hey buddy, Let's welcome You :D
-
-This readme we will try to learn about google Dorking...
