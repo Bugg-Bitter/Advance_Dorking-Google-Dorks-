@@ -117,12 +117,12 @@ All the pre-requirement is now ready for implementing the SQL queries from NodeJ
 *Get all the elements from database …*
 
 
-method : GET
-purpose : fetch all the data from the database …
+method : GET\
+purpose : fetch all the data from the database …\
 query : SELECT * FROM products
 
 code : 
-
+```
 app.get( ‘ ’ ,( req ,res ) => {
 	
 	pool.getConnection((err,connection) => {
@@ -136,7 +136,7 @@ else console.log(err);
 });
 });
 });
-
+```
 
 
 
