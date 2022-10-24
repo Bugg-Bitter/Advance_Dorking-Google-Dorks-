@@ -50,7 +50,7 @@ add this line above the __“test”__ ..
 
 __“ start ” : “nodemon app.js”__
 
-app.js is only the file name  !!
+_app.js is only the file name  !!_
 
 
 
