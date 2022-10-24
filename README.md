@@ -1,4 +1,6 @@
-#### The simple steps for working with mysql using NodeJS ....
+#### The simple steps for working with mysql using NodeJS .... 
+#### We will be doing the CRUD operations in NodeJS with MySql Query..
+
 
 #### Let's Begain ...
 
@@ -23,14 +25,14 @@ It’ll install the necessary packages in Project.. (Temp)
 
 
 
-Step 3 :
+# Step 3 :
 
 install Dev-dependences : 
 
 npm install --save-dev nodemon
 
 
-Step 4 : 
+# Step 4 : 
 
 Edit the package.json file ..
 in the 
@@ -47,7 +49,7 @@ app.js is only the file name  !!
 
 
 
-Step 5 : 
+# Step 5 : 
 
 back to app.js file .. 
 
@@ -69,7 +71,7 @@ console.log(`App is running on the port ${port});
 
 
 
-Step 6 : 
+# Step 6 : 
 
 Now create a DB in using XAMPP with MySQL .. 
 
@@ -83,7 +85,7 @@ a sample DB will be like :
 
 
 
-Step 7 : 
+# Step 7 : 
 back to the App.Js …
  
 We have to make a pool to create a bridge between our environment and DB ..
@@ -99,13 +101,13 @@ database		: ‘google’
 } );
 
 
-Step 8 :
+# Step 8 :
 
 
 All the pre-requirement is now ready for implementing the SQL queries from NodeJS..
 
 
-Can do 8.1
+## Can do 8.1
 
 
 Get all the elements from database …
@@ -135,7 +137,7 @@ else console.log(err);
 
 
 
-Can do 8.2
+## Can do 8.2
 
 
 Get a specific element from the database …
@@ -168,7 +170,7 @@ else console.log(err);
 
 
 
-Can do 8.3
+## Can do 8.3
 
 
 Delete a specific element from the database …
@@ -196,7 +198,7 @@ else console.log(err);
 
 
 
-Can do 8.4
+## Can do 8.4
 
 Add an element to the database …
 
@@ -225,7 +227,7 @@ app.post('',(req,res)=> {
 
 
 
-Can do 8.5
+## Can do 8.5
 
 Update an existing elements property to the database …
 
