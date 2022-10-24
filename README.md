@@ -117,9 +117,9 @@ All the pre-requirement is now ready for implementing the SQL queries from NodeJ
 *Get all the elements from database …*
 
 
-method : GET\
+method : __GET__\
 purpose : fetch all the data from the database …\
-query : SELECT * FROM products
+query : __SELECT * FROM products__
 
 code : 
 ```
@@ -147,16 +147,16 @@ else console.log(err);
 Get a specific element from the database …
 
 
-method : GET
-purpose : fetch only a object from the database …
-query : SELECT FROM products WHERE id = ?
+method : __GET__\
+purpose : fetch only a object from the database …\
+query : __SELECT FROM products WHERE id = ?__
 
 Note: here in get : 
  
-/:id -> is the id that we are searching and it send from url … 
+__/:id -> is the id that we are searching and it send from url …__
 
 code : 
-
+```
 app.get( ‘/:id ’ ,( req ,res ) => {
 	
 	pool.getConnection((err,connection) => {
@@ -170,7 +170,7 @@ else console.log(err);
 });
 });
 });
-
+```
 
 
 
@@ -180,7 +180,7 @@ else console.log(err);
 Delete a specific element from the database …
 
 
-method : DELETE
+method : __DELETE__
 purpose : delete only an object from the database …
 query : DELETE FROM products WHERE id = ?
 
