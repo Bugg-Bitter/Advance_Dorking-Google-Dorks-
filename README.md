@@ -46,7 +46,7 @@ __"scripts": {__\
 __"test": "echo \"Error: no test specified\" && exit 1"__\
 __},__
 
-add this line above the “test” ..
+add this line above the __“test”__ ..
 
 “ start ” : “nodemon app.js” 
 
