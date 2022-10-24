@@ -12,7 +12,7 @@ Create a folder and open terminal from vscode in that folder . Then type :
 npm init
 ```
 
-after that keep pressing enter button to keep the default config .. 
+After that keep pressing enter button to keep the default config .. 
 
 
 # Step 2 :
@@ -20,10 +20,11 @@ after that keep pressing enter button to keep the default config ..
 
 in terminal now type : 
 
-
+```
 npm install express mysql body-parser
+```
 
-It’ll install the necessary packages in Project.. (Temp)
+It’ll install the necessary packages tempurary in Project..
 
 
 
@@ -31,7 +32,9 @@ It’ll install the necessary packages in Project.. (Temp)
 
 install Dev-dependences : 
 
+```
 npm install --save-dev nodemon
+```
 
 
 # Step 4 : 
