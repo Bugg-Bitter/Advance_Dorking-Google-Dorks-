@@ -137,6 +137,8 @@ else console.log(err);
 });
 });
 ```
+
+__OutPut :__\
 <img width="337" alt="image" src="https://user-images.githubusercontent.com/91305837/197471298-551f1fdc-8c8c-48b0-9aeb-ecdb6a7a4c39.png">
 
 
@@ -173,6 +175,10 @@ else console.log(err);
 });
 ```
 
+__Output :__\
+
+<img width="337" alt="image" src="https://user-images.githubusercontent.com/91305837/197472044-9790fa3d-b3ae-434f-9674-dca2ce257ab7.png">
+
 
 
 ## Can do 8.3
@@ -187,7 +193,7 @@ query : __DELETE FROM products WHERE id = ?__
 
 code : 
 ```
-app.delete( ‘/:id ’ ,( req ,res ) => {
+app.get( ‘/:id ’ ,( req ,res ) => {
 	
 	pool.getConnection((err,connection) => {
 	if(err) throw err;
@@ -201,6 +207,10 @@ else console.log(err);
 });
 });
 ```
+
+__Output : __\
+<img width="435" alt="image" src="https://user-images.githubusercontent.com/91305837/197472595-42875f1d-0e3c-413d-84b7-11bf6e4abcc0.png">
+
 
 
 ## Can do 8.4
@@ -230,6 +240,9 @@ app.post('',(req,res)=> {
 });
 ```
 
+__Output : __\
+<img width="435" alt="image" src="https://user-images.githubusercontent.com/91305837/197473191-446ab9a1-40ab-4f06-83d6-7597280ceac0.png">
+
 
 
 ## Can do 8.5
@@ -257,3 +270,7 @@ app.put('',(req,res)=> {
    });
 });
 ```
+
+__Output : __\
+
+<img width="435" alt="image" src="https://user-images.githubusercontent.com/91305837/197473761-402fc726-8559-43d6-8e29-5e5c3d120c1c.png">
