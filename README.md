@@ -1,6 +1,6 @@
-The simple steps for working with mysql using NodeJS ....
+#### The simple steps for working with mysql using NodeJS ....
 
-Let's Begain ...
+#### Let's Begain ...
 
 # Step 1 :
 
@@ -11,7 +11,7 @@ npm init
 after that keep pressing enter button to keep the default config .. 
 
 
-Step 2 :
+# Step 2 :
 
 
 in terminal now type : 
