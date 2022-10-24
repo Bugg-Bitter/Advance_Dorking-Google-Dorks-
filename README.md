@@ -6,9 +6,11 @@
 
 # Step 1 :
 
-create a folder and open terminal from vscode in that folder . Then type : 
+Create a folder and open terminal from vscode in that folder . Then type : 
 
+```
 npm init
+```
 
 after that keep pressing enter button to keep the default config .. 
 
