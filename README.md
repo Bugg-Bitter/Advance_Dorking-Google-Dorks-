@@ -175,8 +175,7 @@ else console.log(err);
 });
 ```
 
-__Output :__\
-
+__OutPut :__\
 <img width="337" alt="image" src="https://user-images.githubusercontent.com/91305837/197472044-9790fa3d-b3ae-434f-9674-dca2ce257ab7.png">
 
 
@@ -208,7 +207,7 @@ else console.log(err);
 });
 ```
 
-__Output : __\
+__Output :__\
 <img width="435" alt="image" src="https://user-images.githubusercontent.com/91305837/197472595-42875f1d-0e3c-413d-84b7-11bf6e4abcc0.png">
 
 
@@ -240,7 +239,7 @@ app.post('',(req,res)=> {
 });
 ```
 
-__Output : __\
+__Output :__\
 <img width="435" alt="image" src="https://user-images.githubusercontent.com/91305837/197473191-446ab9a1-40ab-4f06-83d6-7597280ceac0.png">
 
 
@@ -271,6 +270,6 @@ app.put('',(req,res)=> {
 });
 ```
 
-__Output : __\
+__Output :__\
 
 <img width="435" alt="image" src="https://user-images.githubusercontent.com/91305837/197473761-402fc726-8559-43d6-8e29-5e5c3d120c1c.png">
