@@ -153,7 +153,7 @@ query : __SELECT FROM products WHERE id = ?__
 
 Note: here in get : 
  
-__/:id -> is the id that we are searching and it send from url …__
+/:id -> is the id that we are searching and it send from url …
 
 code : 
 ```
