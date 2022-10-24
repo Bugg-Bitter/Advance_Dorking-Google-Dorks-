@@ -218,7 +218,7 @@ Add an element to the database …
 
 
 method : __POST__\
-purpose : delete only an object from the database …\
+purpose : add an object to the database at the end…\
 query : __INSERT FROM products SET ?__
 
 code : 
