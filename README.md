@@ -1,4 +1,8 @@
-Step 1 :
+The simple steps for working with mysql using NodeJS ....
+
+Let's Begain ...
+
+# Step 1 :
 
 create a folder and open terminal from vscode in that folder . Then type : 
 
