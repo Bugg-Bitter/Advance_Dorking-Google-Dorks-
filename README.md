@@ -48,7 +48,7 @@ __},__
 
 add this line above the __“test”__ ..
 
-“ start ” : “nodemon app.js” 
+__“ start ” : “nodemon app.js”__
 
 app.js is only the file name  !!
 
