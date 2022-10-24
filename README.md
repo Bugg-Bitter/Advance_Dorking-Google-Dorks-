@@ -42,7 +42,7 @@ npm install --save-dev nodemon
 Edit the package.json file ..
 in the 
 
-__"scripts": {__
+__"scripts": {__\
 __"test": "echo \"Error: no test specified\" && exit 1"__
 **  },**
 
