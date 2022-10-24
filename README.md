@@ -88,17 +88,14 @@ a sample DB will be like :
 
 
 
-
-
-
-
 # Step 7 : 
 back to the App.Js …
  
 We have to make a pool to create a bridge between our environment and DB ..
 
-add this code to create a pool …
+Add this code to create a pool …..
 
+```
 const pool = mysql.createPool ( {
 connectionLimit	: 10,
 host			: ‘localhost’,
@@ -106,18 +103,18 @@ user			: ‘root’,
 password		: ‘ ’,
 database		: ‘google’
 } );
+```
 
 
 # Step 8 :
 
-
 All the pre-requirement is now ready for implementing the SQL queries from NodeJS..
 
 
-## Can do 8.1
+## Can do 8.1 
 
 
-Get all the elements from database …
+*Get all the elements from database …*
 
 
 method : GET
