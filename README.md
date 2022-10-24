@@ -180,12 +180,12 @@ else console.log(err);
 Delete a specific element from the database …
 
 
-method : __DELETE__
-purpose : delete only an object from the database …
-query : DELETE FROM products WHERE id = ?
+method : __DELETE__\
+purpose : delete only an object from the database …\
+query : __DELETE FROM products WHERE id = ?__
 
 code : 
-
+```
 app.get( ‘/:id ’ ,( req ,res ) => {
 	
 	pool.getConnection((err,connection) => {
@@ -199,7 +199,7 @@ else console.log(err);
 });
 });
 });
-
+```
 
 
 ## Can do 8.4
@@ -207,12 +207,12 @@ else console.log(err);
 Add an element to the database …
 
 
-method : POST
-purpose : delete only an object from the database …
-query : INSERT FROM products SET ?
+method : __POST__\
+purpose : delete only an object from the database …\
+query : __INSERT FROM products SET ?__
 
 code : 
-
+```
 app.post('',(req,res)=> {
    pool.getConnection((err,connection) => {
        if (err) throw err;
@@ -227,7 +227,7 @@ app.post('',(req,res)=> {
        });
    });
 });
-
+```
 
 
 
@@ -236,12 +236,12 @@ app.post('',(req,res)=> {
 Update an existing elements property to the database …
 
 
-method : PUT
-purpose : update an object's property in DB.
-query : UPDATE products SET drive = ?, contacts = ?, map = ? WHERE id = ?
+method : __PUT__\
+purpose : update an object's property in DB.\
+query : __UPDATE products SET drive = ?, contacts = ?, map = ? WHERE id = ?__
 
 code : 
-
+```
 app.put('',(req,res)=> {
    pool.getConnection((err,connection) => {
        if (err) throw err;
@@ -255,4 +255,4 @@ app.put('',(req,res)=> {
        });
    });
 });
-
+```
