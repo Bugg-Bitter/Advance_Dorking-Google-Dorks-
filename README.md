@@ -187,7 +187,7 @@ query : __DELETE FROM products WHERE id = ?__
 
 code : 
 ```
-app.get( ‘/:id ’ ,( req ,res ) => {
+app.delete( ‘/:id ’ ,( req ,res ) => {
 	
 	pool.getConnection((err,connection) => {
 	if(err) throw err;
