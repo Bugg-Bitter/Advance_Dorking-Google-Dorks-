@@ -43,8 +43,8 @@ Edit the package.json file ..
 in the 
 
 __"scripts": {__\
-__"test": "echo \"Error: no test specified\" && exit 1"__
-**  },**
+__"test": "echo \"Error: no test specified\" && exit 1"__\
+__},__\
 
 add this line above the “test” ..
 
